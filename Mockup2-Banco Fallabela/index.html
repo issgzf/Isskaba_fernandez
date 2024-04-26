@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="awua">
+        <button class="botones1">Seguros</button>
+        <button class="botones1">Viajes</button>
+        <button class="botones1">Fallabela</button>
+        <button class="botones1">Sodimac</button>
+        <button class="botones1">Tottus</button>
+        <button class="botones1">Homy</button>
+        <button class="botones1">Linio</button>
+        <button class="botones1">Fpay</button>
+        <button class="botones1">Fazil</button>
+        <button class="botones2">Ayuda y Contacto</button>
+        <button class="botones2">Oficinas y</button>
+    </div>
+    <div >
+        <img class="imagen2"src="img/logo_banco_falabella.png">
+        <img class="imagen1" src="img/1200px-CMR_Falabella-Logo.svg.png">
+        <button class="BOTON">MI CUENTAA</button>
+    </div>
+    <div>
+        <button class="botones3">CUENTAS  |</button>
+        <button class="botones3"> TARJETA CMR  |</button>
+        <button class="botones3"> AVANCE Y SYPER AVANCE  |</button>
+        <button class="botones3"> CREDITOS  | </button>
+        <button class="botones3"> INVERSIONES  | </button>
+        <button class="botones3"> SEGUROS  | </button>
+        <button class="botones3"> DESCUENTOS  | </button>
+        <button class="botones3"> CMR PUNTOS  | </button>
+        <button class="botones3"> PORTABILIDAD  </button>
+    </div>
+
+
+   <div class="carousel">
+            <img class="carousel-image active" src="img/genial.png">
+            <img class="carousel-image" src="img/logo_banco_falabella.png">
+            <img class="carousel-image" src="img/1200px-CMR_Falabella-Logo.svg.png">
+            <img class="carousel-image" src="img/logo_banco_falabella.png">
+            <a href="#" class="arrow left">&lt;</a>
+            <a href="#" class="arrow right">&gt;</a>
+        </div>
+        <script>
+            var images = Array.from(document.querySelectorAll('.carousel-image'));
+            var currentIndex = 0;
+    
+            function showImage(index) {
+                images.forEach(function(image, i) {
+                    image.classList.toggle('active', i === index);
+                });
+            }
+    
+            document.querySelector('.arrow.left').addEventListener('click', function(e) {
+                e.preventDefault();
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                showImage(currentIndex);
+            });
+    
+            document.querySelector('.arrow.right').addEventListener('click', function(e) {
+                e.preventDefault();
+                currentIndex = (currentIndex + 1) % images.length;
+                showImage(currentIndex);
+            });
+        </script>
+
+    <div class="caja">
+            <h3 class="titul">Simula tu credito de consumo</h3>
+            <form action="/action_page.php">
+               
+                <input class="texto" type="text" id="fname" name="fname" value=""><br>
+                
+                
+                <input class="boton2" type="submit" value="simular">
+            </form>
+        </div>
+
+
+        <div class="title-cards">
+        </div>
+    <div class="container-card">
+        
+    <div class="card">
+        <figure>
+            <img src="img/primer.JPG">
+        </figure>
+        <div class="contenido-card">
+            <h3>Abre tu Cuenta Corriente 100% online</h3>
+            <p>Haz click aqui y comienza a disfrutar de todos sus beneficios</p>
+            
+        </div>
+    </div>
+    <div class="card">
+        <figure>
+            <img src="img/segunda.JPG">
+        </figure>
+        <div class="contenido-card">
+            <h3>Tenemos tasas increible en deposito a plazo</h3>
+            <p>Aprovehca, toma tu deposito a plazo (DAP) presionando aca !Y sacale partido a tus ahorros</p>
+            
+        </div>
+    </div>
+    <div class="card">
+        <figure>
+            <img src="img/tercxera.JPG">
+        </figure>
+        <div class="contenido-card">
+            <h3>!Pide hoy tu Avance</h3>
+            <p>Simula y pidelo 100% online !Obtenlo directo en tu cuenta</p>
+            
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+    <div class="container2">
+        <p class="text">!Ya comenzó el Black friday en banco </p>
+        <p class="text">Fallabela</p>
+        <p class="text2">Encuentra descuentos y promociones increibles en nuestro</p>
+        <p class="text2">Black Friday</p>
+        <button class="BOTON3" >IR AL FRIDAY</button>
+        <div>
+             <img class="a" src="img/Captura de pantalla 2024-04-22 230746.png" width="500" height="300">
+         </div>
+
+        
+     <div class="container3">
+        <img class="a2" src="img/segunhda.png" width="500" height="300">
+        <div>
+            <p class="text22">!Comenzo Black Friday</p>
+            <p class="text222">Miles de oportunidades unicas con tu CMR o Debito Banco</p>
+            <p class="text222">Fallabela</p>
+            <button class="BOTON32" >!REVISA AQUI</button> 
+         </div>
+
+     <div class="container3">
+        <p class="text">Seguro automotriz Full Cobertura </p>
+        <p class="text2">!Contrata tu seguro y llevate 4 Cuotas Gratis por ese Black </p>
+        <p class="text2">Friday!</p>
+        <button class="BOTON3" >CONTRATALO AQUI</button>
+        <div>
+             <img class="a" src="img/Capt33333333333ura de pantalla 2024-04-23 233950.png" width="500" height="300">
+         </div>
+    <div class="container3">
+        <img class="a2" src="img/Captura de pant44444444444444444444444444alla 2024-04-23 234014.png" width="500" height="300">
+        <div>
+            <p class="text22">Abre tu cmr y Participa por una Gitf Card</p>
+            <p class="text222">Sorteamos 8 giftcard de 1 millon entre los que abran su cmr </p>
+            <p class="text222">entre el 28 de marzo y el 4 de abril</p>
+            <button class="BOTON32" >CONTRATALO AQUI</button> 
+         </div>
+
+    <div class="container3">
+        <p class="text">Abre tu cmr y Participa por una Gitf Card</p>
+        <p class="text2">Sorteamos 8 giftcard de 1 millon entre los que abran su cmr </p>
+        <p class="text2">entre el 28 de marzo y el 4 de abril</p>
+        <button class="BOTON3" >HAZLO AQUI</button>
+        <div>
+             <img class="a" src="img/5555555024-04-23 234111.png" width="500" height="300">
+         </div>
+    
+     <div class="container3">
+        <img class="a2" src="img/666666024-04-23 234126.png" width="500" height="300">
+        <div>
+            <p class="text22">!Aliviana el pago de tu CMR </p>
+            <p class="text222">Pasa a cuotas tus compras nacionales o internacionales hechas </p>
+            <p class="text222">con tu CMR</p>
+            <button class="BOTON32" >VER MAS</button> 
+         </div>
+
+      <div class="container3">
+        <p class="text">Disfruta un 40% de dco todos los martes con </p>
+        <p class="text">tu CMRo Debito Banco Fallabela</p>
+        <p class="text2">Los Gennials tenemos los mejores descuentos</p>
+        <button class="BOTON3" >VER MAS</button>
+        <div>
+             <img class="a" src="img/7777774-04-23 234152.png" width="500" height="300">
+         </div>
+
+    <div class="fuego">
+            <img src="img/age.png" >
+            <img src="img/thumbnail_image (1).png" alt="">
+            <img src="img/thumbnail_image.png" alt="">
+            
+            
+        </div>
+        <div class="container3">
+            <p class="text">!Eddu te ayuda¡</p>
+            <p class="text"></p>
+            <p class="text2">Sigue a eddu en Redes Sociales y ¡aprende tips para cuidar tu</p>
+            <p class="text2">plata!</p>
+            <button class="BOTON3" >APRENDE MAS</button>
+            <div>
+                 <img class="a" src="img/Captura.JPG" width="500" height="300">
+             </div>
+
+
+    <div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-row">
+                    <div class="footer-link">
+                        <h3>NUESTRO BANCO</h3>
+                        <ul>
+                            <li><a href="#">Quienes somos</a></li>
+                            <li><a href="#">Directorio</a></li>
+                            <li><a href="#">Administracion</a></li>
+                            <li><a href="#">Informacion institucional</a></li>
+                            <li><a href="#">Documentos legales</a></li>
+                            <li><a href="#">Tasas y Tarifas</a></li>
+                            <li><a href="#">Trabaja con nosotros</a></li>
+                            <li><a href="#">Licitacion Seguro hipotecario</a></li>
+                            <li><a href="#">FACTCA</a></li>
+                            <li><a href="#">Canal de integridad</a></li>
+                            <li><a href="#">Proveedores Portabilidad Financiera</a></li>
+
+                        </ul>   
+                    </div>
+                    <div class="footer-link">
+                        <h3>SERVICIO AL CLIENTE</h3>
+                        <ul>
+                            <li><a href="#">Preguntas Frecuentes</a></li>
+                            <li><a href="#">Ayuda y Contacto</a></li>
+                            <li><a href="#">Tutoriales Banco Falabella</a></li>
+                            <li><a href="#">Oficinas y Cajeros</a></li>
+                            <li><a href="#">Protocolo COVID-19</a></li>
+                            <li><a href="#">Portal Empresas</a></li>
+                            <li><a href="#">Defensoria del Cliente</a></li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="footer-link">
+                        <button  class="botonultimo">ROBO O EXTRAVIO</button>
+                        <div class="social-link">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+                   
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
